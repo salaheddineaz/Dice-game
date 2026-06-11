@@ -1,0 +1,139 @@
+/* responsive.css */
+
+/* Tablets */
+@media (max-width: 900px) {
+  main {
+    width: 95%;
+    height: auto;
+    min-height: 90vh;
+  }
+
+  .player {
+    padding: 5rem 2rem;
+  }
+
+  .name {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .score {
+    font-size: 6rem;
+  }
+
+  .current {
+    width: 80%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  main {
+    width: 95%;
+    height: 70vh;
+    padding-top: 9rem;
+    padding-bottom: 18rem;
+  }
+
+  .player {
+    flex: 1;
+    padding: 1rem 2rem;
+    height: 100%;
+  }
+
+  .name {
+    font-size: 2.6rem;
+  }
+
+  .score {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  .current {
+    width: 100%;
+    max-width: 250px;
+    position: relative;
+    top: 11%;
+  }
+
+  .dice {
+    top: 25%;
+    left: 50%;
+    height: 6rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.8rem;
+  }
+
+  .btn--new {
+    top: 1.5rem;
+  }
+
+  .btn--roll { top: auto;
+    bottom: 12%;
+  }
+
+  .btn--hold { top: auto;
+    bottom: 2%;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  main {
+    height: 75vh;
+  }
+
+  .player {
+    padding: 1rem;
+    height: 100%;
+  }
+
+  .name {
+    font-size: 2.2rem;
+  }
+
+  .score {
+    font-size: 4rem;
+  }
+
+  .current {
+    max-width: 180px;
+    top: 35%;
+
+  }
+
+  .dice {
+    height: 5rem;
+    top: 30%;
+        left: 50%;
+    height: 6rem;
+    transform: translate(-50%, -50%);
+  }
+
+  .btn {
+    width: 80%;
+    max-width: 260px;
+  }
+
+  .btn--roll { 
+    bottom: 12%;
+  }
+
+  .btn--hold {
+    bottom: 2%;
+  }
+}
